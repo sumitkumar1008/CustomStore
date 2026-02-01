@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# 🛒 CustomStore Ecommerce Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CustomStore is a simple ecommerce frontend project built using **ReactJS** and **Axios**.  
+This project demonstrates how to integrate REST APIs using **GET** and **POST** requests with a clean modern UI.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📌 Assignment Objective
 
-### `npm start`
+The goal of this assignment is to:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Fetch product data from Fake Store API (**GET Request**)
+- Add new products using API integration (**POST Request**)
+- Display all products in a professional ecommerce UI
+- Implement product search functionality
+- Deploy the project using Vercel
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🚀 Features Implemented
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+✅ Fetch and display product list from API  
+✅ Add a new product using POST request  
+✅ Live search bar to filter products  
+✅ Responsive product card layout  
+✅ Add-to-Cart button UI (for each product)  
+✅ Navbar with logo, Home, About, Cart icon, and Add Product scroll navigation  
+✅ Footer section for professional website completion  
+✅ Clean Dark Theme (Charcoal + Cyan)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **ReactJS**
+- **Axios**
+- **Fake Store API**
+- **CSS (Custom Styling)**
+- **React Hooks** (`useState`, `useEffect`)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🔗 API Endpoints Used
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### ✅ GET Request (Fetch Products)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+GET https://fakestoreapi.com/products
