@@ -43,7 +43,7 @@ html {
   border: none;
   outline: none;
   background: white;
-  color: white;
+  color: black;
 }
 
 .search-bar::placeholder {
